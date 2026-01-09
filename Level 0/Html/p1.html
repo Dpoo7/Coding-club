@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Web Page</title>
+    
+    <style>
+        /*
+         * Extraordinary CSS Starts Here
+        */
+        
+        body {
+            /* Full viewport background */
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            margin: 0; /* Remove default browser margin */
+        }
+
+        .container {
+            /* Create a central box for content */
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            /* Optional: Add a subtle animation on load */
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        h1 {
+            color: #ffcc00; /* Bright accent color */
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 10px;
+            /* Text shadow for depth */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+
+        /* Keyframe animation definition */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Extraordinary Styled Page</h1>
+        <p>
+            This paragraph demonstrates the power of CSS! We've added a gradient background, 
+            centered the content, created a translucent container, and added text shadows 
+            and a subtle animation effect. This is the foundation for creating beautiful, modern websites.
+        </p>
+    </div>
+
+</body>
+</html>

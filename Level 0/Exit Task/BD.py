@@ -1,0 +1,13 @@
+Name=input("Enter Name=")
+Course=input("Enter Course=")
+DOB=input("Enter DOB=")
+Mono=input("Enter Mobile No=")
+Address=input("Enter Address=")
+print("----------------BIODATA----------------")
+print("Name=",Name)
+print("Course=",Course)
+print("DOB=",DOB)
+print("Mobile Number=",Mono)
+print("Address=",Address)
+print("=======================================")
+
