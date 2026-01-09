@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student ID Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student ID Card Generator</h1>
+
+    <div class="container">
+        <!-- Form -->
+        <div class="form-box">
+            <h2>Enter Student Details</h2>
+
+            <label>Name</label>
+            <input type="text" id="name" placeholder="Student Name">
+
+            <label>Student ID</label>
+            <input type="text" id="sid" placeholder="ID Number">
+
+            <label>Class</label>
+            <input type="text" id="class" placeholder="Class / Grade">
+
+            <label>School Name</label>
+            <input type="text" id="school" placeholder="School Name">
+
+            <button onclick="generateCard()">Generate ID Card</button>
+        </div>
+
+        <!-- ID Card -->
+        <div class="id-card">
+            <div class="header">STUDENT ID</div>
+            <div class="photo">PHOTO</div>
+            <p><strong>Name:</strong> <span id="cname">---</span></p>
+            <p><strong>ID:</strong> <span id="csid">---</span></p>
+            <p><strong>Class:</strong> <span id="cclass">---</span></p>
+            <p class="school" id="cschool">---</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
