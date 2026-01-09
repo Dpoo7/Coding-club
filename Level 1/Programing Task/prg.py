@@ -1,0 +1,7 @@
+Name=input("Enter Name:")
+Course=input("Enter Course:")
+Hobbie=input("Enter Hobbie:")
+print("=======================================")
+print("Name=",Name)
+print("Course=",Course)
+print("Hobbie=",Hobbie)

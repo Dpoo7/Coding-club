@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0 ;
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    background:linear-gradient(#77a1d3,#79cbca,#e684ae);
+    background-repeat:repeat; 
+    text-align: center;
+}
+
+header {
+    background:linear-gradient(#1d2b64,#f8cdda);
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.profile, .content {
+    background:linear-gradient(#fffde4,#005aa7);
+    margin: 30px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+}
+
+footer {
+    background:linear-gradient(#1d2b64,#f8cdda);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nt{
+    font-size:40px;
+    color: #ff0000;
+    text-shadow: 
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #ff0000,
+            0 0 20px #ff0000,
+            0 0 35px #ff0000,
+            0 0 40px #ff0000,
+            0 0 50px #ff0000,
+            0 0 75px #ff0000;
+
+}
+.bt
+{
+    font-size:25px;
+    color: black;
+    text-shadow: 
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px black,
+            0 0 20px black,
+            0 0 35px black,
+            0 0 40px black,
+            0 0 50px black,
+            0 0 75px black;
+}
+
